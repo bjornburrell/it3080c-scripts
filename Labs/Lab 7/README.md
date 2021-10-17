@@ -22,3 +22,9 @@ python3 Lab7.py
 The syntax above will spin up an FTP server at 0.0.0.0:2121 and we can connect with the user: Bjorn & password: Pa$$W0rd
 
 Now we can download, upload, or access the files to our FTP server for our liking
+
+
+I used the following resources to assist with my development: 
+https://pypi.org/project/pyftpdlib/
+https://pyftpdlib.readthedocs.io/en/latest/index.html
+https://serverpilot.io/docs/how-to-run-a-simple-ftp-server/
