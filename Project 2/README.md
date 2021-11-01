@@ -8,7 +8,7 @@ Due to TLS 1.2 not being supported on this scanner I manage - Scan to Email is o
 
 So the workflow will go like this - scanner sends file to SMB share on RaspiPi. Bash script running to detect new files kicks off a python script that emails the newest file in the SMB share to an email within the org that will upload any email from the RaspiPi to a Sharepoint folder. 
 
-To get this working you have to run 
+To perma run the shell script that detects a new file and then kicks off  emailfile.py run the following command, but replace the directory with wherever this script is located on your local machine.
 
 ```
 nohup bash /script/directory/newfile.sh </dev/null >/dev/null 2>&1 &
