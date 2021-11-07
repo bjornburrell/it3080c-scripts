@@ -34,7 +34,6 @@ Add these values and replace the username and pass with your gmail (make sure yo
 
 ```
 nano /etc/postfix/main.cf
-
 ```
 Add these values
 
@@ -46,7 +45,6 @@ smtp_sasl_auth_enable = yes
 smtp_sasl_security_options =
 smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
 smtp_tls_CAfile = /etc/ssl/certs/ca-certificates.crt
-
 ```
 turn your passwd file into a .db file
 
