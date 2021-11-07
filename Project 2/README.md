@@ -33,9 +33,13 @@ Add these values and replace the username and pass with your gmail (make sure yo
 
 
 ```
-nano /etc/postfix/main.cf
+
 ```
-Add these values
+nano /etc/postfix/main.cf
+
+```
+
+add these changes to the config
 
 ```
 
